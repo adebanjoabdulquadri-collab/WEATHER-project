@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./image/background-image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 130px;
+}
+img {
+  display: none;
+  width: 150px;
+  height: 150px;
+}
+.header {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  display: none;
+  position: absolute;
+  top: 85px;
+  left: 20px;
+}
+.heading {
+  font-family: Arial, sans-serif;
+  color: #184f8a;
+  margin-top: 20px;
+}
+
+/* Styling for the output details paragraph */
+#weatherDetails {
+  font-family: Arial, sans-serif;
+  font-size: 37px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 3px;
+  left: 20px;
+}
+#detailsWeather {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 65px;
+  left: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 19px;
+}
+input {
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 350px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #184f8a;
+  box-shadow: 0 0 5px rgba(18, 80, 146, 0.5);
+}
+
+input:hover {
+  border-color: #144d8f;
+}
+button {
+  padding: 15px;
+  border-radius: 14px;
+  background-color: #184f8a;
+  color: aliceblue;
+  border: none;
+  font-size: 15px;
+}
